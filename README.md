@@ -9,4 +9,4 @@
 </p>
 
 ## How to use
-For windows, download the exe file from [here](https://github.com/JoonRhee/Duplicut/raw/main/Duplicut.exe).
+For windows, download the exe file from [here](https://github.com/JoonRhee/Duplicut/raw/main/Duplicut.zip).
