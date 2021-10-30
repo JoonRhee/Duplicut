@@ -486,7 +486,7 @@ func search() {
 
 //run main window
 func main() {
-
+	os.Setenv("FYNE_THEME", "dark")
 	//set font, theme, and window icon
 	windowIcon, _ := fyne.LoadResourceFromPath(`.\Icon.png`)
 
