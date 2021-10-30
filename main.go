@@ -148,7 +148,7 @@ func addFolder() {
 	//create new sub window and set it up
 	addWindow := mainApp.NewWindow("Duplicut - Add Folder")
 	subWindow = addWindow
-	addWindow.Resize(fyne.NewSize(400, 600))
+	addWindow.Resize(fyne.NewSize(550, 600))
 	addWindow.SetCloseIntercept(func() { addWindow.Close(); subWindow = nil })
 	addWindow.CenterOnScreen()
 
@@ -224,7 +224,7 @@ func showCollisions() {
 	}
 
 	//resize the window to fit collision group list
-	colWindow.Resize(fyne.NewSize(400, 600))
+	colWindow.Resize(fyne.NewSize(550, 600))
 	groupIndex := 0
 
 	//set up title text
@@ -486,8 +486,8 @@ func search() {
 
 //run main window
 func main() {
+
 	//set font, theme, and window icon
-	os.Setenv("FYNE_THEME", `dark`)
 	windowIcon, _ := fyne.LoadResourceFromPath(`.\Icon.png`)
 
 	//run main app
